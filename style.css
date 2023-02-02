@@ -7,22 +7,22 @@ body {
 }
 .hero{
     border-bottom: 2px solid black;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 30px;
     background-color: rgb(53, 56, 58);
     background-image: url("../img/stars.jpg");
 }
-
+/* body */
 .profile-pic-figure {
-    width: 35%;
+    width: 17%;
 }
 
 .profile-pic-figure img {
     border: 5px double rgba(248, 250, 250, 0.945);
-    border-radius:50%;
+    border-radius:10%;
+
 }
 .h1 {
     font-size: 500%;
@@ -30,22 +30,80 @@ body {
     color: rgb(179, 178, 175);
     text-shadow: 4px 2px 5px rgba(154, 155, 156, 0.849);
 }
-/* main section */
 
-p {
-    font-size: 20px;
-    color:antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
+.directory{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100;
 }
 
 /* buttons styling*/
 .button1{ 
-    background-color: rgba(22, 22, 22, 0.808);
-    color:rgb(250, 247, 247);
-    border-radius:10px;
-    height: 25px;
-    font-weight: 100;
-    font-size: 20;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 80px;
+    border: none;
+    background-color: rgba(247, 243, 243, 0.486);
+    border-radius: 4px;
+    box-shadow: inset 0000 #1a1b1b;
+    transition: ease-out 0.3s;
+    outline:none;
+    font-size: 2rem;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
+}
+
+.button1:hover {
+    box-shadow:inset 300px 000 #232324;
+    cursor: pointer;
+    color: #c9e2e2;
+}
+
+.button2{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: rgba(86, 124, 126, 0.664);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    outline:none;
+    font-size: 2rem;
+    border: 3px solid rgb(139, 135, 132);
+    position:relative   
+}
+
+.button2:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.button2:before{
+    transition: 0.5s all ease;
+    position:absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom:0;
+    opacity:0;
+    content:"";
+    background-color: rgb(26, 208, 221)
+}
+
+.button2:hover::before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+/* picture */
+.image {
+    margin-left:500px;
     
+
+}
+/* main */
+p {
+    font-size: 20px;
+    color:antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
 }

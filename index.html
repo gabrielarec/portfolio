@@ -8,49 +8,48 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <section class="hero">
-            <figure class="profile-pic-figure">
+        <header>
+            <section class="hero">
+                <figure class="profile-pic-figure">
                 <img src="./img/imgsmall2.jpeg" alt="Gabriela's Profile Picture" title="My profile picture"> 
-            </figure>
-            <h1 class="h1">
+                 </figure>
+                 <h1 class="h1">
                 <span class="nowrap"> Hi</span>
                 <span class="nowrap">I'm Gabriela</span>
-        </section>
+             </section>
+             
             <nav>
-                <div class="logo"><p> Welcome to my porfolio</p></div>
-                <ul>
-                    <li><a href="#"><button class="button1">About me</a></li></button>
-                    <li><a href="#"><button class="button">My work</a></li> </button>
-                    <li><a href="#"><button class="button1">Contact information</a></li></button>
-                </ul>
+                <!-- <div class="logo"><p> Welcome to my porfolio</p></div> -->
+                    <ul class="directory">
+                        <li><a href="#about-me"><button class="button1">About me</a></li></button>
+                        <li><a href="#my-work"><button class="button1">My work</a></li></button>
+                        <li><a href="#contact-info"><button class="button1">Contact information<a></li></button>
+                    </ul>
             </nav>
-
-    </header>
-
+        
+        </header>
+        <img class="image"src="./img/cooldeveloper.jpg" alt="cartoon picture of a developer on a pc">
 
 <main>
     <div class="left">
         <ul>
-            <li><a href="#"> About me</a></li> 
-            <p>My name is Gabriela and im currently enrolled in a developer bootcamp.</p>
+            <li id="about-me"> About me</li> 
+            <p>My name is Gabriela and I am currently enrolled in a web developer bootcamp.</p>
 
-            <li><a href="#">My work</a></li>
+            <li id="my-work">My work</li>
             <p>Since i have zero experience, this portfolio would be my first semi completed work.
                 During bootcamp, I've small projects thou, one of them was about retoring a page and 
-                you can check it here <a href="https://github.com/gabrielarec/digital-telegram" target="_blank">
-              <button class="button1"> HERE </button> </a>
-            <h2>My other work will be displayed here <button> Here</button> <button> Here</button><button> Here</button> </h2>
-            </p>
+                you can check it here <a href="https://github.com/gabrielarec/digital-telegram" target="_blank"> </a>
+              <button class="button2"> HERE </button>
+            
+            <br>My other work will be displayed here <button> Here</button> </p>
+           
         </ul>    
     </div>        
 
 </main>            
   <footer>
-            <li><a href="#">Contact information</a></li> 
-            <button class="button2"> HERE </button>
-
-        
+            <li id="contact-info">Contact information</li>       
    </footer>   
 </body>
 </html>
