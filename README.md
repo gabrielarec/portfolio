@@ -11,4 +11,4 @@
 <li> Flexbox, media queries and css variables. </li>
 
 <h1> Link to deployed application</h1>
-<a href=""> Gabriela's Portfolio </a>
+<a href="https://gabrielarec.github.io/portfolio/"> Gabriela's Portfolio </a>
