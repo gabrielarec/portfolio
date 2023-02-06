@@ -14,6 +14,7 @@ body {
     background-color: rgb(53, 56, 58);
     background-image: url("../img/stars.jpg");
 }
+
 /* body */
 .profile-pic-figure {
     width: 17%;
@@ -33,23 +34,23 @@ body {
 
 .directory{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
     min-height: 100;
+    list-style-type: none;
 }
 
 /* buttons styling*/
 .button1{ 
     width: 300px;
-    height: 80px;
+    height: 60px;
     border: none;
-    background-color: rgba(247, 243, 243, 0.486);
+    background-color: rgba(153, 149, 149, 0.486);
     border-radius: 4px;
-    box-shadow: inset 0000 #1a1b1b;
+    box-shadow: inset 0000 #070707;
     transition: ease-out 0.3s;
-    outline:none;
     font-size: 2rem;
-    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
 }
 
 .button1:hover {
@@ -59,14 +60,14 @@ body {
 }
 
 .button2{
-    width: 300px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     border: none;
-    background-color: rgba(86, 124, 126, 0.664);
+    background-color: rgba(145, 209, 212, 0.425);
     border-radius: 4px;
     transition: ease-out 0.3s;
     outline:none;
-    font-size: 2rem;
+    font-size: 1rem;
     border: 3px solid rgb(139, 135, 132);
     position:relative   
 }
@@ -102,32 +103,40 @@ body {
 
 }
 /* main */
-p {
-    font-size: 20px;
-    color:antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
+ .container{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+    flex-direction: row;
 }
-
-h2 {
+ #about-me{
+    flex: 1;
     font-size: 20px;
-    color:antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#about-me{
-    font-size: 20px;
-    color:antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
- }
-
+    color: rgba(119, 141, 156, 0.856);
+    background-color: rgba(0, 0, 0, 0.342);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ } 
  #my-work{
+    flex: 1;
     font-size: 20px;
-    color:antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
- }
- 
+    color: rgba(0, 0, 0, 0.904);
+    background-color: rgba(119, 141, 156, 0.397);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+/* footer */
  #contact-info{
-    font-size: 20px;
-    color:antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(119, 121, 121);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ @media screen and (max-width:768px){
+    .container{ 
+        width: 100%;
+        flex-direction: column;
+    }
+    
  }
