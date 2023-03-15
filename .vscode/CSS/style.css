@@ -18,11 +18,13 @@ body {
 /* body */
 .profile-pic-figure {
     width: 17%;
+    min-width: 15%;
 }
 
 .profile-pic-figure img {
     border: 5px double rgba(248, 250, 250, 0.945);
     border-radius:10%;
+    
 
 }
 .h1 {
