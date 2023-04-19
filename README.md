@@ -12,3 +12,11 @@
 
 <h1> Link to deployed application</h1>
 <a href="https://gabrielarec.github.io/portfolio/"> Gabriela's Portfolio </a>
+
+## Images 
+
+<img src="">
+![image](../portfolio/assets/img/Screenshot1.png)
+![image](../portfolio/assets/img/my%20work.png)
+![image](../portfolio/assets/img/about%20me%20and%20contact%20info.png)
+

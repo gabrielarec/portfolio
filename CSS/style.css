@@ -1,6 +1,6 @@
 body {
     background-color: rgb(104, 109, 114);
-    background-image:url("img/background.jpg");
+    background-image:url("../img/background.jpg");
     background-size:cover;
     
     /* header */
@@ -12,7 +12,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: rgb(53, 56, 58);
-    background-image: url("img/starts2.jpg");
+    background-image: url("../img/starts2.jpg");
 }
 
 /* body */
@@ -132,7 +132,7 @@ img {
     flex: 1;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.904);
-    background-color: rgba(119, 141, 156, 0.397);
+    background-color: rgba(178, 183, 187, 0.397);
     font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
