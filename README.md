@@ -15,8 +15,8 @@
 
 ## Images 
 
-<img src="">
-![image](../portfolio/assets/img/Screenshot1.png)
-![image](../portfolio/assets/img/my%20work.png)
-![image](../portfolio/assets/img/about%20me%20and%20contact%20info.png)
+
+![image](../portfolio/img/Screenshot1.png)
+![image](../portfolio/img/about%20me%20and%20contacnt%20info.png)
+![image](../portfolio/img/mywork.png)
 
